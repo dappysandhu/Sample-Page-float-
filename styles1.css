@@ -1,0 +1,114 @@
+/* article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+
+/* Typographic Styles */
+
+/* address,
+article,
+aside,
+blockquote,
+body,
+cite,
+div,
+dl,
+dt,
+dd,
+em,
+figcaption,
+figure,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+img,
+li,
+main,
+nav,
+ol,
+p,
+section,
+span,
+ul {
+  background: transparent;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+} */ 
+
+html{
+  background-color: antiquewhite;
+}
+
+body{
+  margin: auto;
+  width: 95%;
+  max-width: 960px;
+  max-height: 640px;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+aside>img{
+  height: 630px;
+}
+
+main>img{
+  height: 630px;
+}
+
+footer{
+  background-color: aqua;
+}
+
+nav.horizontalNavigation>ul>li{
+width:24%;
+float: left;
+list-style: none;
+background-color: blue;
+border: 1px solid white;
+}
+
+
+aside{
+  width: 25%;
+  float: left;
+}
+
+main{
+  width: 75%;
+  float: left;
+}
+
+footer>nav#locations{
+  float: left;
+  width: 40%;
+}
+
+footer::after{
+  clear: both;
+}
+
+footer>nav#company {
+  float: left;
+  width: 30%;
+  /* border: 2px red dashed; */
+}
